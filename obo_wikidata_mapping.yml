@@ -1,0 +1,24 @@
+
+# This mapping makes a unique name assumption.  If clashes are found, 
+
+annotation_properties:
+  label: http://www.w3.org/2000/01/rdf-schema#label
+  definition: http://purl.obolibrary.org/obo/IAO_0000115
+  exact_synonym: http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+  narrow_synonym: http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+  broad_synonym: http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym
+  related_synonymhttp://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
+  
+wikidata_builtin:
+  # Note - using Glossary links in absence of IRIs refering to these
+  label: https://www.wikidata.org/wiki/Wikidata:Glossary#Label
+  description: https://www.wikidata.org/wiki/Wikidata:Glossary#Description
+  alias: https://www.wikidata.org/wiki/Wikidata:Glossary#Alias
+
+wikidata_properties:
+
+
+mapping:
+  http://www.geneontology.org/formats/oboInOwl#hasExactSynonym: https://www.wikidata.org/wiki/Wikidata:Glossary#Alias 
+  http://www.w3.org/2000/01/rdf-schema#label: 'wikidata_builtin:label'
+
