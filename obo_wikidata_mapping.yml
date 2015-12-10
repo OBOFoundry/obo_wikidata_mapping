@@ -24,7 +24,7 @@ wikidata_properties:
   "instance of": "https://www.wikidata.org/wiki/Property:P31"
   "part of":  "https://www.wikidata.org/wiki/Property:P361"
 
-mapping:
+OBO_to_wikidata_mapping:
   # dictionary mapping OBO annotation properties to wikidata entity.  All entrie use full URI to avoid namespace clashes
   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "https://www.wikidata.org/wiki/Wikidata:Glossary#Alias"
   "http://www.w3.org/2000/01/rdf-schema#label": "https://www.wikidata.org/wiki/Wikidata:Glossary#Label"
@@ -33,5 +33,8 @@ mapping:
   # Should only be applied between named classes:
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : "https://www.wikidata.org/wiki/Property:P279" 
   # Are there any cases where we want to capture other edge, (e.g. part of), need to parse anonymous class expressions.
+  
+OLS_to_wikidata_mapping
+   'label': 
   
 
