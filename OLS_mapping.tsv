@@ -1,0 +1,10 @@
+OLS	WIKIDATA	OLS API return value type	Notes
+label	https://www.wikidata.org/wiki/Wikidata:Glossary#Label	string	250 char limit
+description	property TBA	string	400 char limit
+synonyms	https://www.wikidata.org/wiki/Wikidata:Glossary#Alias	list of strings	250 char limit
+annotation['has_narrow_synonym']	property TBA ?	list of strings	Do we need this?
+annotation['has_broad_synonym']	property TBA ?	list of strings	Do we need this?
+annotation['has_related_synonym']	property TBA ?	list of strings	Do we need this?
+annotation['database_cross_reference']	https://www.wikidata.org/wiki/Property:P1659	list of strings.	Each entry is a tag:value pair where tag = DB name and value = accession.  DB resolution and IRI expansion is specified in db-xrefs.yaml
+parents	https://www.wikidata.org/wiki/Property:P279	URI	OLS API link.  Resulting JSON has terms that can be parsed as described in other columns in this table.
+part_of	https://www.wikidata.org/wiki/Property:P361	URI	OLS API link.  Resulting JSON has terms that can be parsed as described in other columns in this table.
