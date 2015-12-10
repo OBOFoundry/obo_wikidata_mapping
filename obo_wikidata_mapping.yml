@@ -7,7 +7,8 @@ annotation_properties:
   narrow_synonym: "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
   broad_synonym: "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"
   related_synonym: "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"
-  database_cross_reference: "http://www.geneontology.org/formats/oboInOwl#hasDbXref" # Would be good to distinguish cross-reference on term from cross reference on definition
+  database_cross_reference: "http://www.geneontology.org/formats/oboInOwl#hasDbXref" 
+  # Would be good to distinguish cross-reference on term from cross reference on definition
   
   
 wikidata_builtin:
@@ -19,12 +20,12 @@ wikidata_builtin:
 wikidata_properties:
   "see_also": "https://www.wikidata.org/wiki/Property:P1659"
   # TBA: wikidata property for definition
-  # 
 
 mapping:
   # dictionary mapping OBO annotation properties to wikidata entity.  All entrie use full URI to avoid namespace clashes
   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": "https://www.wikidata.org/wiki/Wikidata:Glossary#Alias"
   "http://www.w3.org/2000/01/rdf-schema#label": "https://www.wikidata.org/wiki/Wikidata:Glossary#Label"
-  "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://www.wikidata.org/wiki/Property:P1659" # But this ideally would be only for xrefs on term
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "https://www.wikidata.org/wiki/Property:P1659" 
+     # But this ideally would be only for xrefs on term
   
 
