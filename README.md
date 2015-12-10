@@ -7,6 +7,9 @@ A repo for files specifying mapping between OBO-ish owl ontologies and wikidata.
 1. Direct parsing of OWL files
 2. From OLS API
 
-OLS API is appealing for a number of reasons:
- - It is much easier to work with
- - It provides a graphy representation for both classification and key relation types (part\_of, develops\_from)
+The OLS API is appealing for a number of reasons:
+ - One central location for all the latest versions of OBO ontologies
+ - It is much easier to query and to work with results than tools working directly with rdf or owl.
+ - It hides some complexity:
+    - provides a graphy representation for both classification and key relation types (part\_of, develops\_from)
+    - xref on term (provisional mapping WD:'see also') vs xref on definition (new wikidata property) - (pending addition to https://github.com/EBISPOT/OLS/issues/2)
