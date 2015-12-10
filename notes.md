@@ -1,4 +1,4 @@
-Wikidata notes (split out and add link?)
+Wikidata notes (from SWAT4LS meeting)
 ----------------------------------------
 
 ### General wikidata learning: 
