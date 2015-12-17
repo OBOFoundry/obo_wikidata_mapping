@@ -2,8 +2,9 @@
 
 STATUS: ROUGH DRAFT
 
-A repo for files specifying mapping between OBO-ish owl ontologies and wikidata. 
-note.md contains some general notes on mapping taken during SWAT4LS2015 hackathon
+A repo discussion and specification of mappings to wikidata from ontologies in OWL that follow the OBO 1.4 standard for annotation properties and the OBO Foundry standard ID specification.
+
+notes.md contains some general notes on mapping written during SWAT4LS2015 hackathon.
 
 There are at least a couple of options for starting points for mapping:
 
