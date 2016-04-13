@@ -20,7 +20,7 @@ wikidata_builtin:
 wikidata_properties:
   "see_also": "https://www.wikidata.org/wiki/Property:P1659"
   # TBA: wikidata property for definition
-  "subClass 0f": "https://www.wikidata.org/wiki/Property:P279"
+  "subClass of": "https://www.wikidata.org/wiki/Property:P279"
   "instance of": "https://www.wikidata.org/wiki/Property:P31"
   "part of":  "https://www.wikidata.org/wiki/Property:P361"
 
